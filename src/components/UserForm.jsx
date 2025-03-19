@@ -130,7 +130,7 @@ const UserForm = () => {
                       <small className="text-muted">🏠 {u.address}</small>
                     </div>
                     <button
-                      className="btn btn-danger btn-sm"
+                      className="btn btn-danger btn-md"
                       onClick={() => handleDelete(u.id)}
                     >
                       Delete
