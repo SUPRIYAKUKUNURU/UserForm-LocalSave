@@ -97,7 +97,7 @@ const UserForm = () => {
                       value={user[field.name]}
                       onChange={handleChange}
                     />
-                    {errors[field.name] && <div className="text-danger mt-1">{errors[field.name]}</div>}
+                    {errors[field.name] && <div className="text-danger mt-2">{errors[field.name]}</div>}
                   </div>
                 ))}
 
