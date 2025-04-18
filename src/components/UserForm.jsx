@@ -65,7 +65,7 @@ const UserForm = () => {
     );
 
     if (isDuplicate) {
-      alert("User with this Email or Phone Number already exists!");
+      alert("User with this Email or Phone Number already exists..!");
       return;
     }
 
