@@ -73,7 +73,7 @@ const UserForm = () => {
     const updatedUsers = [...storedUsers, newUser];
     localStorage.setItem("users", JSON.stringify(updatedUsers));
 
-    alert("User details saved successfully!");
+    alert("User details saved successfully....!");
 
     setUser({
       firstName: "",
