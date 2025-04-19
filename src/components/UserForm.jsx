@@ -76,8 +76,8 @@ const UserForm = () => {
     alert("User details saved successfully....!");
 
     setUser({
-      firstName: "",
-      lastName: "",
+      firstName: " ",
+      lastName: " ",
       phoneNumber: "",
       email: "",
       address: "",
