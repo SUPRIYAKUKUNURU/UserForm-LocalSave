@@ -29,8 +29,8 @@ const UserForm = () => {
     }
 
     const phoneNumber = user.phoneNumber.trim();
-    if (!/^0\d{9}$/.test(phoneNumber)) {
-      tempErrors.phoneNumber = "Enter a valid 10-digit phone number starting with 0";
+    if (!/^[6-9]\d{9}$/.test(phoneNumber)) {
+      tempErrors.phoneNumber = "Enter a valid 10-digit phone number starting with 6-8";
     }
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(user.email)) {
       tempErrors.email = "Enter a valid Email ID";
@@ -78,9 +78,9 @@ const UserForm = () => {
     setUser({
       firstName: " ",
       lastName: " ",
-      phoneNumber: "",
-      email: "",
-      address: "",
+      phoneNumber: " ",
+      email: " ",
+      address: " ",
     });
     setErrors({});
     setUsers(updatedUsers);
