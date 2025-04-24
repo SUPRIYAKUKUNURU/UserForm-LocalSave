@@ -44,7 +44,7 @@ const UserForm = () => {
 
   const handleChange = (e) => {
     let { name, value } = e.target;
-    if (name === "phoneNumber") {
+    if (name === " phoneNumber ") {
       value = value.replace(/\D/g, "");
     }
 
