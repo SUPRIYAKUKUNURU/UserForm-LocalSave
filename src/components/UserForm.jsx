@@ -36,7 +36,7 @@ const UserForm = () => {
       tempErrors.email = "Enter a valid Email ID";
     }
 
-    if (!user.address.trim()) tempErrors.address = "Address is required";
+    if (!user.address.trim()) tempErrors.address = " Address is required ";
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
