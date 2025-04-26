@@ -25,7 +25,7 @@ const UserForm = () => {
     if (!user.lastName.trim()) {
       tempErrors.lastName = " Last Name is required ";
     } else if (/google/i.test(user.lastName)) {
-      tempErrors.lastName = "Last Name cannot contain 'Google'";
+      tempErrors.lastName = " Last Name cannot contain 'Google' ";
     }
 
     const phoneNumber = user.phoneNumber.trim();
