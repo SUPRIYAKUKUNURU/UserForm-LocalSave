@@ -19,7 +19,7 @@ const UserForm = () => {
     if (!user.firstName.trim()) {
       tempErrors.firstName = " First Name is required ";
     } else if (/google/i.test(user.firstName)) {
-      tempErrors.firstName = "First Name cannot contain 'Google'";
+      tempErrors.firstName = " First Name cannot contain 'Google' ";
     }
 
     if (!user.lastName.trim()) {
